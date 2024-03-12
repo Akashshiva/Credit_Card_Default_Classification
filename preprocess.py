@@ -11,7 +11,6 @@ log_message("Data Cleaning and Preprocessing has started", cleanpath )
 
 df = pd.read_csv(r".\Data\Raw_data\UCI_Credit_Card.csv")
 
-
 try:
     df.drop("ID", axis=1, inplace =True)
     log_message("ID column has dropper", cleanpath)

@@ -6,7 +6,6 @@ import numpy as np
 from utils.logs import log_message
 import traceback
 
-
 app = Flask(__name__)
 log_file_path = "./Logs/prediction.log"
 log_file = open(log_file_path,"a")

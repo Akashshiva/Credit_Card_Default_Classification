@@ -6,6 +6,7 @@ from collections import Counter
 from sklearn.preprocessing import StandardScaler
 import pickle
 
+
 cleanpath = "./Logs/cleaning.log"
 log_message("Data Cleaning and Preprocessing has started", cleanpath )
 
